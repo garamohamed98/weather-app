@@ -28,13 +28,15 @@ export const WeatherCard = ({
 }: WeatherCardProps) => {
   return (
     <div className="bg-[#1E1E1E] p-8 rounded-2xl flex flex-col justify-between gap-4 ">
-      <form onSubmit={handleSubmit} className=" flex flex-row gap-4">
+      <form
+        onSubmit={handleSubmit}
+        className="bg-[#363636] flex flex-row justify-between rounded-2xl p-2"
+      >
         <input
           type="text"
           value={city}
           onChange={(e) => setCity(e.target.value)}
           placeholder="Enter city name"
-          className="bg-[#363636] p-2 rounded-2xl"
         />
         <button className=" p-2  rounded-4xl" type="submit">
           <i className="fas fa-search"></i>

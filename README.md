@@ -42,7 +42,7 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/weather-app.git
+   git clone https://github.com/garamohamed98/weather-app
    ```
 
 2. Navigate into the project folder:
